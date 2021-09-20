@@ -14,10 +14,10 @@ FROM registry.access.redhat.com/ubi8/nodejs-14:1-43
 
 USER default
 
-LABEL name="ibm/template-node-typescript" \
-      vendor="IBM" \
+LABEL name="ibm-hcbt/cntk-firstapp" \
+      vendor="IBM Hybrid Cloud Build Team" \
       version="1" \
-      release="28.1618434924" \
+      release="20210920.01" \
       summary="This is an example of a container image." \
       description="This container image will deploy a Typescript Node App"
 

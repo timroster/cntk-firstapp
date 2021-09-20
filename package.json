@@ -1,7 +1,7 @@
 {
-  "name": "template-node-typescript",
+  "name": "cntk-firstapp",
   "version": "1.0.0",
-  "org": "my-org",
+  "org": "hcbt-demo",
   "description": "Code pattern for starting a typescript-based microservice",
   "main": "index.js",
   "config": {
