@@ -9,8 +9,8 @@ RUN ls -lA && npm ci && npm run build
 FROM registry.access.redhat.com/ubi8/nodejs-14:1-46
 
 ## Uncomment the below lines to update image security content if any
-# USER root
-# RUN dnf -y update-minimal --security --sec-severity=Important --sec-severity=Critical && dnf clean all
+USER root
+RUN dnf -y update-minimal --security --sec-severity=Important --sec-severity=Critical && dnf clean all
 
 USER default
 
