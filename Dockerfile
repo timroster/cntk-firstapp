@@ -10,14 +10,14 @@ FROM registry.access.redhat.com/ubi8/nodejs-14:1-46
 
 ## Uncomment the below lines to update image security content if any
 USER root
-RUN dnf -y update-minimal --security --sec-severity=Important --sec-severity=Critical && dnf clean all
+RUN dnf -y update && dnf clean all
 
 USER default
 
 LABEL name="ibm-hcbt/cntk-firstapp" \
       vendor="IBM Hybrid Cloud Build Team" \
-      version="1" \
-      release="20210920.01" \
+      version="1.0.0" \
+      release="20211003.01" \
       summary="This is an example of a container image." \
       description="This container image will deploy a Typescript Node App"
 
