@@ -17,7 +17,7 @@ USER default
 LABEL name="ibm-hcbt/cntk-firstapp" \
       vendor="IBM Hybrid Cloud Build Team" \
       version="1.0.0" \
-      release="20211003.01" \
+      release="20211003.02" \
       summary="This is an example of a container image." \
       description="This container image will deploy a Typescript Node App"
 
